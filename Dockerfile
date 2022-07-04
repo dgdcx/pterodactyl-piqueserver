@@ -1,4 +1,4 @@
-FROM        python:3.9.10-alpine3.15
+FROM        python:3.9.13-alpine3.16
 LABEL       author="Sonicscream" maintainer="sonicscream@dgd.cx"
 RUN         apk update
 RUN         apk upgrade
